@@ -4,7 +4,7 @@ FastAPI, known for its speed and efficiency, is an excellent framework for build
 
 ## Introduction to FastAPI
 
-{{< link href="https://fastapi.tiangolo.com/" >}}FastAPI{{< /link >}} is a modern, high-performance web framework for building APIs with Python, based on standard Python type hints. It’s known for its speed, ease of use, and automatic documentation generation with OpenAPI. Built on ASGI (Asynchronous Server Gateway Interface), FastAPI is particularly well-suited for handling concurrent requests and is an ideal choice for building APIs that monitor system performance, such as CPU, RAM, memory, and disk usage.
+[FastAPI](https://fastapi.tiangolo.com/) is a modern, high-performance web framework for building APIs with Python, based on standard Python type hints. It’s known for its speed, ease of use, and automatic documentation generation with OpenAPI. Built on ASGI (Asynchronous Server Gateway Interface), FastAPI is particularly well-suited for handling concurrent requests and is an ideal choice for building APIs that monitor system performance, such as CPU, RAM, memory, and disk usage.
 
 Now that we know the basics of FastAPI, let’s look at how to install it and test it without needing a traditional server.
 
@@ -108,10 +108,6 @@ Use the following command to set up a tunnel to your local development server:
 ssh -p 443 -R0:localhost:8000 qr@a.pinggy.io
 ```
 
-
-{{< pinggytunnel box="true" tunnelstring="Paste this command to start a tunnel to FastAPI:" portstring="FastAPI Port" localport="8000" webdebugenabled=false keepalive=true >}}
-{{< /pinggytunnel >}}
-
 Note: Replace the port 8000 in the command with the port where your local development server is running.
 
 After running the command, Pinggy will generate a public URL which might looks like this:
@@ -135,10 +131,17 @@ Output would look like:-
 
 ## Advantages of Using Pinggy for Hosting FastAPI
 
-Pinggy provides several unique benefits for developers:
+[Pinggy](https://pinggy.io) provides several unique benefits for developers:
 
 1. **Quick Setup**: Instantly expose a local FastAPI app to the internet without configuring cloud infrastructure or deploying a server.
 2. **Testing and Demos**: Ideal for sharing applications during development or conducting live demos. It simplifies the process of testing integrations with external services that require a public URL (e.g., webhooks, payment gateways).
 3. **Flexible Access**: With Pinggy’s public URL, you can let others access your local application without being on the same network.
 4. **Security Built-In**: Pinggy supports HTTPS by default, which helps secure the connection between clients and your local application.
 5. **Developer-Friendly**: Pinggy is straightforward and doesn’t require heavy configurations, making it accessible for both new and experienced developers.
+
+## Conclusion
+
+We've explored how to efficiently monitor system performance, such as CPU, RAM, memory, and disk usage, using FastAPI. By leveraging FastAPI’s ease of use, speed, and simplicity, we’ve created a set of powerful APIs to track various system metrics. We also demonstrated how to extend FastAPI’s capabilities to monitor hardware usage, providing insights into how your system is performing in real-time.
+We also explored [Pinggy](https://pinggy.io) as a tool that enables developers to easily expose their local FastAPI applications to the internet without the need for complex server setups. Pinggy provides a simple and secure way to share FastAPI apps with a public URL, making it ideal for testing, live demonstrations, and quick deployments during development.
+
+By combining FastAPI with tools like [Pinggy](https://pinggy.io), developers can streamline the development and sharing process, ensuring that they can monitor system performance while maintaining accessibility and security.
