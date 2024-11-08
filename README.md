@@ -1,6 +1,12 @@
 # Remote_system_monitoring_with_FastAPI_and_Pinggy
-Here we have written FastAPI applications to monitor our system's performance- specifically CPU, RAM, Memory, and Disk usage.
-We will see how to run these files locally and later we will mention how we can monitor remotely using Pinggy.
+
+FastAPI, known for its speed and efficiency, is an excellent framework for building APIs, making it a popular choice for developers. We’ll show you how to easily monitor your system’s performance—specifically CPU, RAM, memory, and disk usage—using FastAPI. Additionally, we’ll demonstrate how to remotely access these system metrics with Pinggy, bypassing the need for complex cloud setups and instantly sharing your FastAPI server from localhost with just a single command.
+
+## Introduction to FastAPI
+
+{{< link href="https://fastapi.tiangolo.com/" >}}FastAPI{{< /link >}} is a modern, high-performance web framework for building APIs with Python, based on standard Python type hints. It’s known for its speed, ease of use, and automatic documentation generation with OpenAPI. Built on ASGI (Asynchronous Server Gateway Interface), FastAPI is particularly well-suited for handling concurrent requests and is an ideal choice for building APIs that monitor system performance, such as CPU, RAM, memory, and disk usage.
+
+Now that we know the basics of FastAPI, let’s look at how to install it and test it without needing a traditional server.
 
 ## Running a FastAPI server on localhost
 ### Step 1: Create a Virtual Environment
@@ -119,13 +125,13 @@ http://rnnex-2405-201-800b-489d-7063-516b-6c80-5d24.a.free.pinggy.link
 http://rnnex-2405-201-800b-489d-7063-516b-6c80-5d24.a.free.pinggy.link/cpu
 ```
 
-{{< image "system_monitoring_fastapi/pinggy_command_img.webp" "Pinggy command" >}}
+![Pinggy command](system_monitoring_fastapi/pinggy_command_img.webp)
 
 When you paste the modified URL into your browser, your FastAPI application will process the request and return the output in JSON format, which will be displayed directly in the browser.
 
 Output would look like:-
 
-{{< image "system_monitoring_fastapi/pinggy_output.webp" "Output through Pinggy" >}}
+![Output through Pinggy](system_monitoring_fastapi/pinggy_output.webp)
 
 ## Advantages of Using Pinggy for Hosting FastAPI
 
