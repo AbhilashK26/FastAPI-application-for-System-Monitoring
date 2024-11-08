@@ -142,6 +142,7 @@ Output would look like:-
 ## Conclusion
 
 We've explored how to efficiently monitor system performance, such as CPU, RAM, memory, and disk usage, using FastAPI. By leveraging FastAPI’s ease of use, speed, and simplicity, we’ve created a set of powerful APIs to track various system metrics. We also demonstrated how to extend FastAPI’s capabilities to monitor hardware usage, providing insights into how your system is performing in real-time.
+
 We also explored [Pinggy](https://pinggy.io) as a tool that enables developers to easily expose their local FastAPI applications to the internet without the need for complex server setups. Pinggy provides a simple and secure way to share FastAPI apps with a public URL, making it ideal for testing, live demonstrations, and quick deployments during development.
 
 By combining FastAPI with tools like [Pinggy](https://pinggy.io), developers can streamline the development and sharing process, ensuring that they can monitor system performance while maintaining accessibility and security.
