@@ -1,4 +1,4 @@
-# Remote_system_monitoring_with_FastAPI_and_Pinggy
+# Remote System Monitoring with FastAPI and Pinggy
 
 FastAPI, known for its speed and efficiency, is an excellent framework for building APIs, making it a popular choice for developers. We’ll show you how to easily monitor your system’s performance—specifically CPU, RAM, memory, and disk usage—using FastAPI. Additionally, we’ll demonstrate how to remotely access these system metrics with Pinggy, bypassing the need for complex cloud setups and instantly sharing your FastAPI server from localhost with just a single command.
 
